@@ -65,9 +65,37 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+.wrapper {
+	text-align: center;
+	width: 1000px;
+	margin-left: 460px;
+	margin-right: 460x;
+	border: 3px solid red;
+}
+
+.page {
+	display: inline-block;
+}
+
+.header {
+	display: inline-block;
+	
+}
+
 .header-nav {
-	height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	
+	box-sizing: border-box;
+	display: inline-block;
+	border: 2px solid purple;
+	margin-top: 20px;
+	margin-left: -50%;
+	height: 80px;
+	width: 600px;
+}
+
+nav {
+	padding-top: 25px;
+
 }
 
 .logo {
@@ -76,8 +104,5 @@ h1, h2, h3, h4, h5 {
 	box-sizing: border-box;
 }
 
-h1 {
-	font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+
 }
