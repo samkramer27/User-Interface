@@ -70,7 +70,6 @@ h1, h2, h3, h4, h5 {
 	width: 1000px;
 	margin-left: 460px;
 	margin-right: 460x;
-	border: 3px solid red;
 }
 
 .page {
@@ -79,24 +78,43 @@ h1, h2, h3, h4, h5 {
 
 .header {
 	display: inline-block;
-	
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .header-nav {
-	
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	box-sizing: border-box;
 	display: inline-block;
-	border: 2px solid purple;
+	border: 2px solid purpl;
 	margin-top: 20px;
-	margin-left: -50%;
+	margin-right: 15px;
+	
 	height: 80px;
-	width: 600px;
+	width: 650px;
 }
 
 nav {
-	padding-top: 25px;
-
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: flex-end;
+	margin-top: 35px;
+	height: 10px;
 }
+
+nav a {
+	text-decoration: none;
+	color: #bcbcbc;
+}
+
+.header-logo {
+	margin-left: 30px;
+}
+
 
 .logo {
 	display: inline-block;
@@ -105,4 +123,107 @@ nav {
 }
 
 
+
+
+.title {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 40px;
+}
+
+.title-slogan {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-left: 100px;
+	margin-bottom: 20px;
+}
+
+.title-slogan h1 {
+	font-size: 80px;
+	margin-top: -50px;
+}
+
+.Get-Started {
+	font-size: 18px;
+	padding: 7px;
+	border: 1px solid black;
+	width: 175px;
+	height: 35px;
+	text-decoration: none;
+	color: black;
+}
+
+
+
+.center-image {
+	margin-right: 30px;
+	margin-bottom: 50px;
+}
+
+.body {
+	width: 90%;
+	display: inline-block;
+}
+
+.body p {
+	font-size: 16px;
+}
+
+.body-row1 {
+	display: flex;
+	justify-content: space-around;
+}
+
+.features {
+	text-align: left;
+	
+}
+
+.about {
+	text-align: left;
+}
+
+.body-row2 { 
+	display: flex;
+	justify-content: space-around;
+}
+
+.body-row2 div {
+	width: 30%;
+}
+
+.services {
+	text-align: left;
+}
+
+.product {
+	text-align: left;
+}
+
+.vision {
+	text-align: left;
+}
+
+hr {
+	width: 90%;
+	height: 1px;
+	background: #fff;
+	margin-top: 20px;
+}
+
+
+.footer {
+	width: 90%;
+	display: inline-block;
+	padding-bottom: 125px;
+}
+
+.contact {
+	text-align: left;
+}
+
+.copyright {
+	margin-top: 60px;
 }
